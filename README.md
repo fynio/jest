@@ -26,7 +26,7 @@ dentro de el metodo describe podemos asignar un nombre.
 
 Es el metodo que se encarga de ejecutar el test, tiene un alias llamado **it**.
 
-## **expect**
+## **expect()**
 
 Este metodo se encarga de realizar la evaluacion y va acompañado de unos matchers los cuales se enlistaran más adelante.
 
