@@ -42,39 +42,73 @@ test('two plus two is four', () => {
 
 
 .toBe(value)
+
 .toHaveBeenCalledTimes(number)
+
 .toHaveBeenCalledWith(arg1, arg2, ...)
+
 .toHaveBeenLastCalledWith(arg1, arg2, ...)
+
 .toHaveBeenNthCalledWith(nthCall, arg1, arg2, ....)
+
 .toHaveReturned()
+
 .toHaveReturnedTimes(number)
+
 .toHaveReturnedWith(value)
+
 .toHaveLastReturnedWith(value)
+
 .toHaveNthReturnedWith(nthCall, value)
+
 .toHaveLength(number)
+
 .toHaveProperty(keyPath, value?)
+
 .toBeCloseTo(number, numDigits?)
+
 .toBeDefined()
+
 .toBeFalsy()
+
 .toBeGreaterThan(number | bigint)
+
 .toBeGreaterThanOrEqual(number | bigint)
+
 .toBeLessThan(number | bigint)
+
 .toBeLessThanOrEqual(number | bigint)
+
 .toBeInstanceOf(Class)
+
 .toBeNull()
+
 .toBeTruthy()
+
 .toBeUndefined()
+
 .toBeNaN()
+
 .toContain(item)
+
 .toContainEqual(item)
+
 .toEqual(value)
+
 .toMatch(regexpOrString)
+
 .toMatchObject(object)
+
 .toMatchSnapshot(propertyMatchers?, hint?)
+
 .toMatchInlineSnapshot(propertyMatchers?, inlineSnapshot)
+
 .toStrictEqual(value)
+
 .toThrow(error?)
+
 .toThrowErrorMatchingSnapshot(hint?)
+
 .toThrowErrorMatchingInlineSnapshot(inlineSnapshot)
 
 
