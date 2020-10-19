@@ -1,0 +1,23 @@
+{
+  "name": "jestcourse",
+  "version": "1.0.0",
+  "description": "Jest Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --env=node",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Rodrigo Garcia Trejo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

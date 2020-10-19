@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var twoSum = function (nums, target) {
+            const arreglo = new Array;
+
+
+            for (i = 0; i <= nums.length; i++) {
+                console.log("estoy dentro del for")
+                for (j = 0; j <= nums.length; j++) {
+                    if (nums[i] + nums[j] == target) {
+                        arreglo[0] = nums[j];
+                        arreglo[1] = nums[i];
+                    }
+                }
+            }
+
+
+            return arreglo;
+        };
+
+
+
+        let arregloinput = [3, 3];
+        let target = 6;
+        var resultado = twoSum(arregloinput, target);
+        alert(resultado);
+
+
+    </script>
+</body>
+
+</html>
